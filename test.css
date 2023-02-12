@@ -1,0 +1,99 @@
+.main {
+    display: flex;
+
+    /* background-color: darkblue; */
+    color:pink;
+    font-family: Chau Philomene One,serif;
+    margin-top: 100px;
+    letter-spacing: 10px;
+    
+}
+
+.main h1{
+    text-decoration:underline solid pink;
+}
+
+body{
+    background-color: royalblue;
+    text-transform: lowercase;
+
+}
+
+
+a{
+    color: cyan;
+}
+
+a:hover{
+    color: darkblue;
+}
+
+.star {
+	position: relative;
+	border-bottom: 50px solid #EF6C00;
+	border-right: 75px solid transparent;
+	border-left: 75px solid transparent;
+	transform: rotate(-37deg);
+}
+.star::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: -75px;
+	border-bottom: 50px solid #EF6C00;
+	border-right: 75px solid transparent;
+	border-left: 75px solid transparent;
+	transform: rotate(-71.5deg);
+}
+
+.star::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: -75px;
+	border-bottom: 50px solid #EF6C00;
+	border-right: 75px solid transparent;
+	border-left: 75px solid transparent;
+	transform: rotate(71.5deg);
+}
+
+.half-moon-a {
+	width: 75px;
+	height: 150px;
+	border-radius: 75px 0 0 75px;
+	background: #0091EA;
+}
+
+.half-moon-b {
+	width: 75px;
+	height: 150px;
+	border-radius: 0 75px 75px 0;
+	background: #FF5252;
+}
+
+.half-moon-c {
+	width: 150px;
+	height: 75px;
+	border-radius: 0 0 75px 75px;
+	background: #43A047;
+}
+
+.half-moon-d {
+	width: 150px;
+	height: 75px;
+	border-radius: 75px 75px 0 0;
+	background: #EF6C00;
+}
+
+.foto {
+    border: 5px solid #ffffff;  
+    margin-left: 80px;
+    margin-top: 100px;
+    width: 200px;
+    margin-bottom: auto;
+    flex: 1;
+}
+
+.container{
+    flex: 1;
+}
